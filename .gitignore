@@ -27,4 +27,5 @@ Thumbs.db
 .claude/settings.local.json
 .vscode/
 
-# Lock files (keep package-lock.json but ignore nested ones in node_modules)
+# TypeScript compiled JS output (tsc -b side-effect)
+intelliwatch/frontend/src/**/*.js
