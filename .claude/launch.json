@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "INTELLIWATCH Backend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "intelliwatch/backend", "run", "dev"],
+      "port": 3001
+    },
+    {
+      "name": "INTELLIWATCH Frontend",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "intelliwatch\\.claude\\run-frontend.cmd"],
+      "port": 5173
+    },
+    {
+      "name": "INTELLIWATCH Full Stack",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "intelliwatch", "start"],
+      "port": 5173
+    }
+  ]
+}
